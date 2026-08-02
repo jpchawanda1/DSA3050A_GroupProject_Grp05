@@ -44,7 +44,7 @@ TODO: e.g., a regional airport operations team / an airline's operations analyti
 TODO: document cleaning/transformation steps applied (e.g., handling nulls in `ArrDelay`/`DepDelay`, fixing data types, deriving `Season`, `DelayCategory`, merging carrier code lookup table, removing duplicates).
 
 ## Data Model
-TODO: explain the star schema / relationships between fact and dimension tables (e.g., Fact_Flights, Dim_Date, Dim_Airport, Dim_Carrier).
+TODO: explain the star schema/relationships between fact and dimension tables (e.g., Fact_Flights, Dim_Date, Dim_Airport, Dim_Carrier).
 
 ## DAX Measures
 TODO: list and explain key DAX measures created (e.g., Average Delay, % Cancelled Flights, On-Time Performance, YoY Delay Trend).
