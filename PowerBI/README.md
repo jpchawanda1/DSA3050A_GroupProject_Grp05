@@ -1,12 +1,37 @@
-# PowerBI Folder
+# Power BI
 
-Place the final Power BI file here:
+| File | Contents |
+|---|---|
+| `GroupProject.pbix` | **The submission file.** Full data model, 22 DAX measures, Executive Summary and Geographic & Route Analysis pages |
+| `GroupProject_ExecSummary_TrendPages.pbix` | Holds the **Trend Analysis** page. Same data model — pending merge into `GroupProject.pbix` |
 
-- `GroupProject.pbix` — **TODO:** the complete Power BI project file, including:
-  - Power Query transformations
-  - Data model (relationships)
-  - DAX measures
-  - All dashboard pages
-  - Drill-through pages
+## Merging the two files
 
-> Tip: Keep the `.pbix` under GitHub's 100MB file size limit. If it's larger, consider Git LFS.
+Both files carry an identical data model (same tables, same relationships, same
+lineage tags), so the merge is a copy-paste rather than a rebuild:
+
+1. Open both files in Power BI Desktop.
+2. In `GroupProject_ExecSummary_TrendPages.pbix`, select the visuals on the Trend
+   Analysis page and copy them.
+3. Paste onto a new page in `GroupProject.pbix`. Because the model is identical,
+   every field binding resolves without remapping.
+4. Re-sync the slicers across all pages (View → Sync slicers).
+5. Delete `GroupProject_ExecSummary_TrendPages.pbix` once the merge is verified.
+
+## Model summary
+
+- **Fact_Flights** — 227,496 rows, one per flight
+- **Dim_Date** — 365 rows, marked as the model date table
+- **Dim_Airline** — 15 rows
+- **Summary_Airline_Performance** — 15-row Group By aggregate
+- **_Measures** — disconnected table holding all 22 measures in six display folders
+
+All relationships are many-to-one, single-direction. No bi-directional filters.
+
+## Still to build
+
+- **Page 4 — Route Drill-through**, drilling through on `Fact_Flights[Route]`
+  from the map and matrix on the Geographic page.
+- A **custom tooltip page** for the carrier visuals.
+
+> Keep the `.pbix` under GitHub's 100 MB limit. Both files are currently ~3 MB.
