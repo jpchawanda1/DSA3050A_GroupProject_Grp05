@@ -16,11 +16,11 @@
 | Name | GitHub | Student ID |
 |---|---|---|
 | J. P. Chawanda | `@Jpchawanda` | 670444 |
-| Catherine Ingabire | `@Catherine-20` |  |
-| Ruth Musanhu | `@ruthmusanhu` | |
-| Faith Chakwanira | `@fai-alt` |  |
-| Racheal H. | `@HRacheal` | |
-| Sharlyne K. | `@skiven-data` | |
+| Catherine Ingabire | `@Catherine-20` | 671041|
+| Ruth Musanhu | `@ruthmusanhu` | 670474|
+| Faith Chakwanira | `@fai-alt` | 670435 |
+| Racheal H. | `@HRacheal` | 670448 |
+| Sharlyne K. | `@skiven-data` | 669718|
 
 
 ## Dataset Source
