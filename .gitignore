@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office / Power BI lock and temp files
+~$*
+*.tmp
+*.pbix.bak
+
+# Power BI Desktop cache
+*.pbiviz
+
+# Local build scripts — the pipeline they implement is documented in the README,
+# and their outputs (cleaned data, figures, screenshots, PDFs) are committed.
+Documentation/*.py
