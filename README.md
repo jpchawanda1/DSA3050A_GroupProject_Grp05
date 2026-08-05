@@ -568,9 +568,9 @@ Recorded honestly so the team knows exactly what is left:
    started. It should drill through from the map and matrix on Page 3 on the
    `Route` field.
 3. **Add a custom tooltip page** for the carrier visuals.
-4. **Capture the two remaining screenshots** from Power BI Desktop:
-   `power_query_editor.png` and `applied_steps.png`, plus one capture per
-   finished dashboard page.
+4. **Capture one screenshot per finished dashboard page** from Power BI Desktop.
+   The Power Query Editor and Applied Steps evidence is already covered by
+   [Documentation/PowerQuery_Cleaning_Steps.docx](Documentation/PowerQuery_Cleaning_Steps.docx).
 5. **Fill in student IDs** in the members table above.
 6. **Reach 20 commits with 3+ per member** — the brief's collaboration threshold.
 

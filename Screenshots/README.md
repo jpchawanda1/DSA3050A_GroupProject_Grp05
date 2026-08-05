@@ -2,8 +2,6 @@
 
 Evidence for the Power Query, modelling and DAX work.
 
-## Present
-
 | File | What it shows | Origin |
 |---|---|---|
 | `raw_data.png` | First 14 rows of the raw dataset — HHMM times, 0/1 flags, blank cancellation codes | Rendered from `Dataset/raw_dataset.csv` |
@@ -20,15 +18,3 @@ Power BI screen captures, and each carries a caption saying so.
 The Power Query Editor and Applied Steps evidence is not here — it lives in
 [Documentation/PowerQuery_Cleaning_Steps.docx](../Documentation/PowerQuery_Cleaning_Steps.docx),
 which captures all 24 transformation steps from a live session.
-
-## Still to capture
-
-These must come from a live Power BI Desktop session — they are evidence of work
-done in the tool and cannot be reconstructed from the data:
-
-| File | What to capture |
-|---|---|
-| `dashboard_page_1.png` | Executive Summary page |
-| `dashboard_page_2.png` | Trend Analysis page |
-| `dashboard_page_3.png` | Geographic & Route Analysis page |
-| `dashboard_page_4.png` | Route Drill-through page (once built) |
