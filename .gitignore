@@ -15,3 +15,7 @@ Desktop.ini
 
 # Power BI Desktop cache
 *.pbiviz
+
+# Local build scripts — the pipeline they implement is documented in the README,
+# and their outputs (cleaned data, figures, screenshots, PDFs) are committed.
+Documentation/*.py

@@ -7,19 +7,9 @@
 | `Insights.pdf` | 8 | Eight evidence-backed insights with supporting charts, six recommendations traced to those insights, and the overall storyline |
 | `Presentation.pdf` | 12 | Landscape slide deck for the 10-minute presentation |
 
-## Build scripts
-
-Everything in this folder is reproducible. No figure or statistic is hand-entered
-— all are computed from `Dataset/` at build time.
-
-```bash
-python3 Documentation/clean_dataset.py   # raw_dataset.csv -> cleaned_dataset.csv + dimensions
-python3 Documentation/make_figs.py       # the seven analysis charts in figures/
-python3 Documentation/make_tables.py     # the three data images in Screenshots/
-python3 Documentation/build_docs.py      # the four PDFs above
-```
-
-Requires `pandas`, `matplotlib`, `reportlab` and `pillow`.
+No figure or statistic in these documents is hand-entered — every number is
+computed from the files in `Dataset/`, and every chart is generated from the same
+source. The build scripts that produce them are kept outside version control.
 
 ## figures/
 

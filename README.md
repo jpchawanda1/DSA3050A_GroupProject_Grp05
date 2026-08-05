@@ -124,10 +124,9 @@ The dashboard is written for three audiences inside that organization:
 ## Power Query Transformations
 
 Every step below is an Applied Step in the Power Query Editor of
-`GroupProject.pbix`. The same pipeline is reproduced line-for-line in
-[Documentation/clean_dataset.py](Documentation/clean_dataset.py), so the exported
-`Dataset/cleaned_dataset.csv` can always be regenerated and checked against the
-model.
+`GroupProject.pbix`. The exported result is
+[Dataset/cleaned_dataset.csv](Dataset/cleaned_dataset.csv), which can be checked
+against the model at any time.
 
 ### Required cleaning tasks
 
@@ -548,9 +547,7 @@ DSA3050A_GroupProject_Grp05/
 │   ├── Data_Dictionary.pdf
 │   ├── Insights.pdf
 │   ├── Presentation.pdf
-│   ├── figures/                              charts used in the reports
-│   ├── make_figs.py                          reproduces every figure
-│   └── make_tables.py                        reproduces the cleaning pipeline
+│   └── figures/                              charts used in the reports
 │
 ├── .gitignore
 ├── LICENSE
