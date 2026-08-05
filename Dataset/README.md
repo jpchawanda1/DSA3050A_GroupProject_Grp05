@@ -18,16 +18,13 @@ Transportation Statistics**. Source: https://cran.r-project.org/package=hflights
 TailNum, ActualElapsedTime, AirTime, ArrDelay, DepDelay, Origin, Dest, Distance,
 TaxiIn, TaxiOut, Cancelled, CancellationCode, Diverted`
 
-## Regenerating the cleaned files
+## How the cleaned files are produced
 
-`cleaned_dataset.csv`, `dim_airline.csv` and `dim_date.csv` are produced by the
-same transformation pipeline that runs in Power Query:
-
-```bash
-python3 Documentation/clean_dataset.py
-```
-
-Every column is defined in [Documentation/Data_Dictionary.pdf](../Documentation/Data_Dictionary.pdf).
+`cleaned_dataset.csv`, `dim_airline.csv` and `dim_date.csv` are exports of the
+Power Query pipeline in `PowerBI/GroupProject.pbix`. Every transformation step is
+documented in the [main README](../README.md#power-query-transformations), and
+every column is defined in
+[Documentation/Data_Dictionary.pdf](../Documentation/Data_Dictionary.pdf).
 
 ## One thing worth knowing
 
