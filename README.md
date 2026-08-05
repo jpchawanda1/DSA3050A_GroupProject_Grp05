@@ -15,14 +15,12 @@
 
 | Name | GitHub | Student ID |
 |---|---|---|
-| J. P. Chawanda | `@Jpchawanda` | _to be filled in_ |
-| Catherine Ingabire | `@Catherine-20` | _to be filled in_ |
-| Ruth Musanhu | `@ruthmusanhu` | _to be filled in_ |
-| Faith Chakwanira | `@fai-alt` | _to be filled in_ |
-| Racheal H. | `@HRacheal` | _to be filled in_ |
+| J. P. Chawanda | `@Jpchawanda` | 670444 |
+| Catherine Ingabire | `@Catherine-20` |  |
+| Ruth Musanhu | `@ruthmusanhu` | |
+| Faith Chakwanira | `@fai-alt` |  |
+| Racheal H. | `@HRacheal` | |
 
-> Names are taken from the commit history of this repository. Each member must add
-> their own student ID before submission.
 
 ## Dataset Source
 
