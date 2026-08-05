@@ -11,6 +11,21 @@ No figure or statistic in these documents is hand-entered — every number is
 computed from the files in `Dataset/`, and every chart is generated from the same
 source. The build scripts that produce them are kept outside version control.
 
+## PowerQuery_Cleaning_Steps.docx
+
+The one document here that is *not* generated. It is a live capture: 24
+screenshots taken in the Power Query Editor, in the order the transformations
+were applied — rename and delete columns, set data types, remove duplicates and
+blank rows, trim and clean text, replace inconsistent values, handle missing
+values, split and merge columns, custom and conditional columns, extract date
+parts — followed by the advanced tasks: merge queries, append queries, unpivot
+columns, parameters, a reference query, and business categories built from
+nested conditions.
+
+It is the evidence that the cleaning described in `Project_Report.pdf` was done
+in the tool rather than reconstructed afterwards. Carried over from the `main`
+branch, where it was committed as `Dataset/BI project screenshots.docx`.
+
 ## figures/
 
 The seven charts used in the report and deck:

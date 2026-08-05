@@ -17,6 +17,10 @@ Evidence for the Power Query, modelling and DAX work.
 The three data images are faithful renderings of the actual CSV files rather than
 Power BI screen captures, and each carries a caption saying so.
 
+The Power Query Editor and Applied Steps evidence is not here — it lives in
+[Documentation/PowerQuery_Cleaning_Steps.docx](../Documentation/PowerQuery_Cleaning_Steps.docx),
+which captures all 24 transformation steps from a live session.
+
 ## Still to capture
 
 These must come from a live Power BI Desktop session — they are evidence of work
@@ -24,8 +28,6 @@ done in the tool and cannot be reconstructed from the data:
 
 | File | What to capture |
 |---|---|
-| `power_query_editor.png` | Power Query Editor with the cleaned query selected, showing the data preview and the query list |
-| `applied_steps.png` | The Applied Steps pane, expanded to show the full transformation sequence |
 | `dashboard_page_1.png` | Executive Summary page |
 | `dashboard_page_2.png` | Trend Analysis page |
 | `dashboard_page_3.png` | Geographic & Route Analysis page |
