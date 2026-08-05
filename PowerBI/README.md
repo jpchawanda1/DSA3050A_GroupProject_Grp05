@@ -4,6 +4,11 @@
 |---|---|
 | `GroupProject.pbix` | **The submission file.** Full data model, 22 DAX measures, Executive Summary and Geographic & Route Analysis pages |
 | `GroupProject_ExecSummary_TrendPages.pbix` | Holds the **Trend Analysis** page. Same data model — pending merge into `GroupProject.pbix` |
+| `Executive_Summary_Insights.docx` / `.pdf` | Five insights read off the Executive Summary and Trend pages, plus five recommendations |
+| `Geographic_and_Drillthrough_Analysis.docx` / `.pdf` | Walkthrough of the Geographic & Segment, drill-through, decomposition tree and custom tooltip pages |
+
+Both write-ups are kept in Word and PDF. Edit the `.docx`, then re-export the
+`.pdf` so the two stay in step.
 
 ## Merging the two files
 
