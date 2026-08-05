@@ -5,11 +5,25 @@
 | `Project_Report.pdf` | 13 | Full written report — business problem, data understanding, Power Query cleaning, data modelling, DAX, dashboard design, insights, recommendations, limitations, conclusion |
 | `Data_Dictionary.pdf` | 7 | Every column of the raw and cleaned datasets plus all three dimension tables: name, type, meaning, example value, null count. Includes the cancellation and airport code reference |
 | `Insights.pdf` | 8 | Eight evidence-backed insights with supporting charts, six recommendations traced to those insights, and the overall storyline |
-| `Presentation.pdf` | 12 | Landscape slide deck for the 10-minute presentation |
+| `Presentation.pdf` | 12 | Landscape slide deck, generated from the figures in `figures/` |
 
 No figure or statistic in these documents is hand-entered — every number is
 computed from the files in `Dataset/`, and every chart is generated from the same
 source. The build scripts that produce them are kept outside version control.
+
+## The team deck
+
+Built by hand in PowerPoint, not generated:
+
+| File | Slides | Contents |
+|---|---|---|
+| `GRP5 AIRLINE DELAY PROJECT.pptx` | 70 | The editable source — the deck actually presented |
+| `GRP 05 AIRLINE DELAY PROJECT .pdf` | 70 | PDF export of the same deck |
+
+Edit the `.pptx` and re-export the `.pdf` so the two stay in step.
+
+Note that this leaves two decks in the folder — this one and the generated
+`Presentation.pdf`. Decide which is the submission artefact before handing in.
 
 ## PowerQuery_Cleaning_Steps.docx
 
