@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office / Power BI lock and temp files
+~$*
+*.tmp
+*.pbix.bak
+
+# Power BI Desktop cache
+*.pbiviz
